@@ -1,0 +1,768 @@
+Nov 12, 2024 11:28:42 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 12, 2024 11:28:42 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 12, 2024 11:28:43 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 12, 2024 11:28:43 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 12, 2024 11:28:43 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 12, 2024 11:28:43 AM org.example.WeatherApp checkIfTablesExist
+FINE: Weather table exists: false
+Nov 12, 2024 11:28:43 AM org.example.WeatherApp checkIfTablesExist
+FINE: Predictions table exists: true
+Nov 12, 2024 11:28:43 AM org.example.WeatherApp createTables
+INFO: Weather data table created successfully
+Nov 12, 2024 11:28:43 AM org.example.WeatherApp createTables
+INFO: Predictions table created successfully
+Nov 12, 2024 11:28:43 AM org.example.WeatherApp checkIfTablesExist
+FINE: Weather table exists: true
+Nov 12, 2024 11:28:43 AM org.example.WeatherApp checkIfTablesExist
+FINE: Predictions table exists: true
+Nov 12, 2024 11:28:43 AM org.example.WeatherApp fetchAllWeatherData
+INFO: Fetching weather data for all supported cities...
+Nov 12, 2024 11:28:43 AM org.example.WeatherApp updateWeatherDataForCity
+INFO: Updating weather data for Chennai
+Nov 12, 2024 11:28:45 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Chennai
+Nov 12, 2024 11:28:45 AM org.example.WeatherApp fetchAllWeatherData
+INFO: Successfully updated weather data for Chennai
+Nov 12, 2024 11:28:45 AM org.example.WeatherApp updateWeatherDataForCity
+INFO: Updating weather data for Bangalore
+Nov 12, 2024 11:28:45 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Bangalore
+Nov 12, 2024 11:28:45 AM org.example.WeatherApp fetchAllWeatherData
+INFO: Successfully updated weather data for Bangalore
+Nov 12, 2024 11:28:45 AM org.example.WeatherApp updateWeatherDataForCity
+INFO: Updating weather data for Delhi
+Nov 12, 2024 11:28:46 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Delhi
+Nov 12, 2024 11:28:46 AM org.example.WeatherApp fetchAllWeatherData
+INFO: Successfully updated weather data for Delhi
+Nov 12, 2024 11:28:50 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 12, 2024 11:28:50 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 12, 2024 11:28:57 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 11:28:59 AM org.example.WeatherApp runPredictionForCity
+WARNING: Prediction failed for Chennai. Exit code: 1
+Nov 12, 2024 11:28:59 AM org.example.WeatherApp getPredictionForCity
+SEVERE: Error retrieving prediction for Chennai: Unknown column 'created_at' in 'order clause'
+Nov 12, 2024 11:37:05 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 12, 2024 11:37:05 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 12, 2024 11:37:06 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 12, 2024 11:37:06 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 12, 2024 11:37:06 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 12, 2024 11:37:06 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 12, 2024 11:37:06 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 12, 2024 11:37:06 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 12, 2024 11:37:07 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Chennai
+Nov 12, 2024 11:37:07 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 12, 2024 11:37:12 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 12, 2024 11:37:12 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 12, 2024 11:37:26 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 11:37:28 AM org.example.WeatherApp runPredictionForCity
+WARNING: Prediction failed for Chennai. Exit code: 1
+Nov 12, 2024 11:37:28 AM org.example.WeatherApp getPredictionForCity
+SEVERE: Error retrieving prediction for Chennai: Unknown column 'created_at' in 'order clause'
+Nov 12, 2024 11:38:55 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 12, 2024 11:38:55 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 12, 2024 11:38:55 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 12, 2024 11:38:55 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 12, 2024 11:38:55 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 12, 2024 11:38:55 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 12, 2024 11:38:55 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 12, 2024 11:38:55 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 12, 2024 11:38:57 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Chennai
+Nov 12, 2024 11:38:57 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 12, 2024 11:39:01 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 12, 2024 11:39:01 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 12, 2024 11:39:02 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 11:39:04 AM org.example.WeatherApp runPredictionForCity
+WARNING: Prediction failed for Chennai. Exit code: 1
+Nov 12, 2024 11:39:04 AM org.example.WeatherApp getPredictionForCity
+SEVERE: Error retrieving prediction for Chennai: Unknown column 'created_at' in 'order clause'
+Nov 12, 2024 11:42:09 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 12, 2024 11:42:09 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 12, 2024 11:42:10 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 12, 2024 11:42:10 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 12, 2024 11:42:10 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 12, 2024 11:42:10 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 12, 2024 11:42:10 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 12, 2024 11:42:10 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 12, 2024 11:42:12 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Chennai
+Nov 12, 2024 11:42:12 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 12, 2024 11:42:16 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 12, 2024 11:42:16 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 12, 2024 11:42:18 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 11:42:20 AM org.example.WeatherApp runPredictionForCity
+WARNING: Prediction failed for Chennai. Exit code: 1
+Nov 12, 2024 11:42:20 AM org.example.WeatherApp getPredictionForCity
+SEVERE: Error retrieving prediction for Chennai: Unknown column 'created_at' in 'order clause'
+Nov 12, 2024 11:43:46 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 12, 2024 11:43:46 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 12, 2024 11:43:46 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 12, 2024 11:43:47 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 12, 2024 11:43:47 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 12, 2024 11:43:47 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 12, 2024 11:43:47 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 12, 2024 11:43:47 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 12, 2024 11:43:48 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Chennai
+Nov 12, 2024 11:43:48 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 12, 2024 11:43:52 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 12, 2024 11:43:52 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 12, 2024 11:43:54 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 11:43:55 AM org.example.WeatherApp runPredictionForCity
+WARNING: Prediction failed for Chennai. Exit code: 1
+Nov 12, 2024 11:43:56 AM org.example.WeatherApp getPredictionForCity
+SEVERE: Error retrieving prediction for Chennai: Unknown column 'created_at' in 'order clause'
+Nov 12, 2024 11:46:02 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 12, 2024 11:46:02 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 12, 2024 11:46:03 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 12, 2024 11:46:03 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 12, 2024 11:46:03 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 12, 2024 11:46:03 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 12, 2024 11:46:03 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 12, 2024 11:46:03 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 12, 2024 11:46:05 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Chennai
+Nov 12, 2024 11:46:05 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 12, 2024 11:46:09 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 12, 2024 11:46:09 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 12, 2024 11:46:10 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 11:46:12 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Chennai
+Nov 12, 2024 11:46:12 AM org.example.WeatherApp getPredictionForCity
+SEVERE: Error retrieving prediction for Chennai: Unknown column 'created_at' in 'order clause'
+Nov 12, 2024 11:46:25 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 11:46:27 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Chennai
+Nov 12, 2024 11:46:27 AM org.example.WeatherApp getPredictionForCity
+SEVERE: Error retrieving prediction for Chennai: Unknown column 'created_at' in 'order clause'
+Nov 12, 2024 11:49:09 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 12, 2024 11:49:09 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 12, 2024 11:49:09 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 12, 2024 11:49:09 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 12, 2024 11:49:09 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 12, 2024 11:49:09 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 12, 2024 11:49:09 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 12, 2024 11:49:09 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 12, 2024 11:49:11 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Chennai
+Nov 12, 2024 11:49:11 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 12, 2024 11:49:15 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 12, 2024 11:49:15 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 12, 2024 11:49:16 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 11:49:18 AM org.example.WeatherApp runPredictionForCity
+WARNING: Prediction failed for Chennai. Exit code: 1
+Nov 12, 2024 11:49:18 AM org.example.WeatherApp getPredictionForCity
+SEVERE: Error retrieving prediction for Chennai: Unknown column 'created_at' in 'order clause'
+Nov 12, 2024 11:52:15 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 12, 2024 11:52:15 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 12, 2024 11:52:15 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 12, 2024 11:52:15 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 12, 2024 11:52:15 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 12, 2024 11:52:15 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 12, 2024 11:52:15 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 12, 2024 11:52:15 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 12, 2024 11:52:17 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Chennai
+Nov 12, 2024 11:52:17 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 12, 2024 11:52:21 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 12, 2024 11:52:21 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 12, 2024 11:52:22 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 11:52:24 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Chennai
+Nov 12, 2024 11:52:24 AM org.example.WeatherApp getPredictionForCity
+SEVERE: Error retrieving prediction for Chennai: Unknown column 'created_at' in 'order clause'
+Nov 12, 2024 11:53:11 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 12, 2024 11:53:11 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 12, 2024 11:53:11 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 12, 2024 11:53:11 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 12, 2024 11:53:11 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 12, 2024 11:53:11 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 12, 2024 11:53:11 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 12, 2024 11:53:11 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 12, 2024 11:53:13 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Chennai
+Nov 12, 2024 11:53:13 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 12, 2024 11:53:17 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 12, 2024 11:53:17 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 12, 2024 11:53:18 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 11:53:20 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Chennai
+Nov 12, 2024 11:53:20 AM org.example.WeatherApp getPredictionForCity
+SEVERE: Error retrieving prediction for Chennai: Unknown column 'id' in 'order clause'
+Nov 12, 2024 11:54:41 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 12, 2024 11:54:41 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 12, 2024 11:54:42 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 12, 2024 11:54:42 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 12, 2024 11:54:42 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 12, 2024 11:54:42 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 12, 2024 11:54:42 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 12, 2024 11:54:42 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 12, 2024 11:54:43 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Chennai
+Nov 12, 2024 11:54:43 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 12, 2024 11:54:47 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 12, 2024 11:54:47 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 12, 2024 11:54:51 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 11:54:53 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Chennai
+Nov 12, 2024 11:54:53 AM org.example.WeatherApp getPredictionForCity
+SEVERE: Error retrieving prediction for Chennai: Unknown column 'id' in 'order clause'
+Nov 12, 2024 11:56:50 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 12, 2024 11:56:50 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 12, 2024 11:56:51 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 12, 2024 11:56:51 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 12, 2024 11:56:51 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 12, 2024 11:56:51 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 12, 2024 11:56:51 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 12, 2024 11:56:51 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 12, 2024 11:56:52 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Chennai
+Nov 12, 2024 11:56:52 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 12, 2024 11:56:56 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 12, 2024 11:56:56 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 12, 2024 11:57:03 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 11:57:04 AM org.example.WeatherApp runPredictionForCity
+WARNING: Prediction failed for Chennai. Exit code: 1
+Nov 12, 2024 11:57:04 AM org.example.WeatherApp getPredictionForCity
+SEVERE: Error retrieving prediction for Chennai: Unknown column 'prediction_id' in 'order clause'
+Nov 12, 2024 12:00:35 PM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 12, 2024 12:00:35 PM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 12, 2024 12:00:35 PM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 12, 2024 12:00:35 PM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 12, 2024 12:00:35 PM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 12, 2024 12:00:35 PM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 12, 2024 12:00:35 PM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 12, 2024 12:00:35 PM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 12, 2024 12:00:37 PM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Chennai
+Nov 12, 2024 12:00:37 PM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 12, 2024 12:00:41 PM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 12, 2024 12:00:41 PM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 12, 2024 12:00:42 PM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 12:00:44 PM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Chennai
+Nov 12, 2024 12:02:14 PM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 12, 2024 12:02:14 PM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 12, 2024 12:02:15 PM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 12, 2024 12:02:15 PM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 12, 2024 12:02:15 PM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 12, 2024 12:02:15 PM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 12, 2024 12:02:15 PM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 12, 2024 12:02:15 PM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 12, 2024 12:02:16 PM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Chennai
+Nov 12, 2024 12:02:16 PM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 12, 2024 12:02:20 PM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 12, 2024 12:02:20 PM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 12, 2024 12:02:22 PM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 12, 2024 12:02:24 PM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Chennai
+Nov 12, 2024 12:02:31 PM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Bangalore
+Nov 12, 2024 12:02:31 PM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Chennai
+Nov 12, 2024 12:02:31 PM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Chennai
+Nov 12, 2024 12:02:32 PM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Bangalore
+Nov 12, 2024 12:02:32 PM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Bangalore
+Nov 12, 2024 12:02:44 PM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Bangalore
+Nov 12, 2024 12:02:46 PM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Bangalore
+Nov 12, 2024 12:02:55 PM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Delhi
+Nov 12, 2024 12:02:55 PM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Bangalore
+Nov 12, 2024 12:02:55 PM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Bangalore
+Nov 12, 2024 12:02:56 PM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored weather data for Delhi
+Nov 12, 2024 12:02:56 PM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Delhi
+Nov 12, 2024 12:03:06 PM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Delhi
+Nov 12, 2024 12:03:08 PM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Delhi
+Nov 13, 2024 5:03:32 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 13, 2024 5:03:32 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 13, 2024 5:03:33 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 13, 2024 5:03:33 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 13, 2024 5:03:33 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 13, 2024 5:03:33 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 13, 2024 5:03:33 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 13, 2024 5:03:33 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 13, 2024 5:03:34 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Chennai
+Nov 13, 2024 5:03:34 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 13, 2024 5:03:39 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 13, 2024 5:03:39 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 13, 2024 5:04:03 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 13, 2024 5:04:10 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Chennai
+Nov 13, 2024 5:04:38 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 13, 2024 5:04:38 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 13, 2024 5:04:39 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 13, 2024 5:04:39 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 13, 2024 5:04:39 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 13, 2024 5:04:39 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 13, 2024 5:04:39 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 13, 2024 5:04:39 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 13, 2024 5:04:40 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Chennai
+Nov 13, 2024 5:04:40 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 13, 2024 5:04:44 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 13, 2024 5:04:44 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 13, 2024 5:04:46 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Bangalore
+Nov 13, 2024 5:04:46 AM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Chennai
+Nov 13, 2024 5:04:46 AM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Chennai
+Nov 13, 2024 5:04:47 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Bangalore
+Nov 13, 2024 5:04:47 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Bangalore
+Nov 13, 2024 5:04:52 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Bangalore
+Nov 13, 2024 5:04:54 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Bangalore
+Nov 13, 2024 5:05:28 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Delhi
+Nov 13, 2024 5:05:28 AM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Bangalore
+Nov 13, 2024 5:05:29 AM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Bangalore
+Nov 13, 2024 5:05:29 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Delhi
+Nov 13, 2024 5:05:29 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Delhi
+Nov 13, 2024 5:05:35 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Delhi
+Nov 13, 2024 5:05:37 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Delhi
+Nov 13, 2024 5:06:15 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Bangalore
+Nov 13, 2024 5:06:15 AM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Delhi
+Nov 13, 2024 5:06:15 AM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Delhi
+Nov 13, 2024 5:06:16 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Bangalore
+Nov 13, 2024 5:06:16 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Bangalore
+Nov 13, 2024 5:06:21 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Bangalore
+Nov 13, 2024 5:06:23 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Bangalore
+Nov 13, 2024 5:06:54 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 13, 2024 5:06:54 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 13, 2024 5:06:55 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 13, 2024 5:06:55 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 13, 2024 5:06:55 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 13, 2024 5:06:55 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 13, 2024 5:06:55 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 13, 2024 5:06:55 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 13, 2024 5:06:56 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Chennai
+Nov 13, 2024 5:06:56 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 13, 2024 5:07:00 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 13, 2024 5:07:00 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 13, 2024 5:07:02 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 13, 2024 5:07:03 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Chennai
+Nov 13, 2024 5:07:21 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Bangalore
+Nov 13, 2024 5:07:21 AM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Chennai
+Nov 13, 2024 5:07:21 AM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Chennai
+Nov 13, 2024 5:07:23 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Bangalore
+Nov 13, 2024 5:07:23 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Bangalore
+Nov 13, 2024 5:07:28 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Bangalore
+Nov 13, 2024 5:07:30 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Bangalore
+Nov 13, 2024 5:07:32 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Delhi
+Nov 13, 2024 5:07:32 AM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Bangalore
+Nov 13, 2024 5:07:32 AM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Bangalore
+Nov 13, 2024 5:07:34 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Delhi
+Nov 13, 2024 5:07:34 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Delhi
+Nov 13, 2024 5:07:38 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Delhi
+Nov 13, 2024 5:07:40 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Delhi
+Nov 13, 2024 5:08:29 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Bangalore
+Nov 13, 2024 5:08:29 AM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Delhi
+Nov 13, 2024 5:08:29 AM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Delhi
+Nov 13, 2024 5:08:30 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Bangalore
+Nov 13, 2024 5:08:30 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Bangalore
+Nov 13, 2024 5:08:35 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 13, 2024 5:08:35 AM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Bangalore
+Nov 13, 2024 5:08:35 AM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Bangalore
+Nov 13, 2024 5:08:35 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Chennai
+Nov 13, 2024 5:08:35 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 13, 2024 5:08:40 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 13, 2024 5:08:41 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Chennai
+Nov 13, 2024 5:09:15 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Bangalore
+Nov 13, 2024 5:09:15 AM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Chennai
+Nov 13, 2024 5:09:15 AM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Chennai
+Nov 13, 2024 5:09:16 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Bangalore
+Nov 13, 2024 5:09:16 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Bangalore
+Nov 13, 2024 5:09:21 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Bangalore
+Nov 13, 2024 5:09:23 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Bangalore
+Nov 13, 2024 9:13:25 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 13, 2024 9:13:25 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 13, 2024 9:13:26 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 13, 2024 9:13:26 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 13, 2024 9:13:26 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 13, 2024 9:13:26 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 13, 2024 9:13:26 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 13, 2024 9:13:26 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 13, 2024 9:13:26 AM org.example.WeatherApp fetchWeatherData
+SEVERE: Error fetching weather data: weather.visualcrossing.com
+Nov 13, 2024 9:13:26 AM org.example.WeatherApp fetchWeatherData
+SEVERE: Error fetching weather data: weather.visualcrossing.com
+Nov 13, 2024 9:13:26 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 13, 2024 9:13:26 AM org.example.WeatherApp initializeGUI
+SEVERE: Failed to initialize GUI: Missing weather data or database connection.
+Nov 13, 2024 9:13:26 AM org.example.WeatherApp <init>
+SEVERE: Failed to initialize WeatherApp: Failed to initialize GUI: Missing weather data or database connection.
+Nov 13, 2024 9:14:34 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 13, 2024 9:14:34 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 13, 2024 9:14:35 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 13, 2024 9:14:35 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 13, 2024 9:14:35 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 13, 2024 9:14:35 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 13, 2024 9:14:35 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 13, 2024 9:14:35 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 13, 2024 9:14:42 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Chennai
+Nov 13, 2024 9:14:42 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 13, 2024 9:14:49 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 13, 2024 9:14:49 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 13, 2024 9:14:56 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 13, 2024 9:15:01 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Chennai
+Nov 13, 2024 9:15:20 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Bangalore
+Nov 13, 2024 9:15:20 AM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Chennai
+Nov 13, 2024 9:15:20 AM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Chennai
+Nov 13, 2024 9:15:22 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Bangalore
+Nov 13, 2024 9:15:22 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Bangalore
+Nov 13, 2024 9:16:10 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Bangalore
+Nov 13, 2024 9:16:13 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Bangalore
+Nov 13, 2024 9:16:19 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Delhi
+Nov 13, 2024 9:16:19 AM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Bangalore
+Nov 13, 2024 9:16:19 AM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Bangalore
+Nov 13, 2024 9:16:22 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Delhi
+Nov 13, 2024 9:16:22 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Delhi
+Nov 13, 2024 9:16:30 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Delhi
+Nov 13, 2024 9:16:33 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Delhi
+Nov 13, 2024 9:57:04 AM org.example.WeatherApp <init>
+INFO: Initializing WeatherApp...
+Nov 13, 2024 9:57:04 AM org.example.WeatherApp initializeDatabase
+INFO: Initializing database connection...
+Nov 13, 2024 9:57:05 AM org.example.WeatherApp initializeDatabase
+INFO: Database created or verified: weather_db
+Nov 13, 2024 9:57:05 AM org.example.WeatherApp initializeDatabase
+INFO: Successfully connected to database: weather_db
+Nov 13, 2024 9:57:05 AM org.example.WeatherApp createTables
+INFO: Checking and creating necessary tables...
+Nov 13, 2024 9:57:05 AM org.example.WeatherApp clearAllWeatherData
+INFO: Clearing all weather data from previous sessions...
+Nov 13, 2024 9:57:05 AM org.example.WeatherApp clearAllWeatherData
+INFO: Successfully cleared all weather data
+Nov 13, 2024 9:57:05 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Chennai
+Nov 13, 2024 9:57:08 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Chennai
+Nov 13, 2024 9:57:08 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Chennai
+Nov 13, 2024 9:57:15 AM org.example.WeatherApp initializeGUI
+INFO: GUI initialized successfully
+Nov 13, 2024 9:57:15 AM org.example.WeatherApp <init>
+INFO: WeatherApp initialized successfully
+Nov 13, 2024 9:57:48 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Chennai
+Nov 13, 2024 9:57:51 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Chennai
+Nov 13, 2024 10:29:43 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Bangalore
+Nov 13, 2024 10:29:43 AM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Chennai
+Nov 13, 2024 10:29:43 AM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Chennai
+Nov 13, 2024 10:29:47 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Bangalore
+Nov 13, 2024 10:29:47 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Bangalore
+Nov 13, 2024 10:29:56 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Bangalore
+Nov 13, 2024 10:29:59 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Bangalore
+Nov 13, 2024 10:34:32 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Fetching weather data for Delhi
+Nov 13, 2024 10:34:32 AM org.example.WeatherApp clearCityData
+INFO: Clearing data for city: Bangalore
+Nov 13, 2024 10:34:32 AM org.example.WeatherApp clearCityData
+INFO: Successfully cleared data for Bangalore
+Nov 13, 2024 10:34:39 AM org.example.WeatherApp storeTomorrowWeatherData
+INFO: Successfully stored hybrid weather data for Delhi
+Nov 13, 2024 10:34:39 AM org.example.WeatherApp fetchWeatherDataForCity
+INFO: Successfully updated weather data for Delhi
+Nov 13, 2024 10:34:53 AM org.example.WeatherApp runPredictionForCity
+INFO: Starting prediction process for Delhi
+Nov 13, 2024 10:34:56 AM org.example.WeatherApp runPredictionForCity
+INFO: Temperature prediction completed for Delhi
